@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------------------
-# runFusion_height3.py
+# runFusion_height2017.py
 # Created on: 28 December 2009 (13 March 2012 - updated for arcGIS 10)
+# Updated on: 5 February 2018
+# For use with Python 2.7
 # Keith Olsen
 #  This program will start FUSION gridmetrics at a specified cell size and
 #    process the results into a merged raster surface for the HJA research forest
