@@ -1,2 +1,2 @@
 # Lidar-gridMetrics
-A collection of python scripts that automate FUSION gridMetric runs and assemble the output into ArcGIS
+A collection of python scripts that automate FUSION gridMetric runs and assemble the output into ArcGIS. The script takes a tile size that FUSION can use to process gridMetrics and a starting x/y coordinate. After gridMetrics is run for that tile, the edges are trimmed and the tile is imported/projected into arcGIS. After all the tiles are run, GDAL merge puts all the tiles together into one image and can export to a geoDB. See run_heightMetrics2017.py
